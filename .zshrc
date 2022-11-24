@@ -134,3 +134,22 @@ export PATH="/usr/local/bin:$PATH"
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="/Users/icodelife/fvm/default/bin:$PATH"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="/Users/icodelife/.local/bin:$PATH"
+export PNPM_HOME="/Users/icodelife/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+export GEM_HOME="$HOME/.gem"
+export PATH="/Users/icodelife/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+alias code='open -a "Visual Studio Code"' # open file or folder in VSCode e.g. code ~/.zshrc
+
+export LC_ALL=en_US.UTF-8
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+#export PATH="$PATH:$HOME/.rvm/bin"
+#eval "$(rbenv init -)"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
