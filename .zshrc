@@ -133,7 +133,7 @@ export PATH="$PATH:$HOME/.pub-cache/bin"
 export PATH="/usr/local/bin:$PATH"
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin:/Users/icodelife/.pub-cache/bin
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
